@@ -1,0 +1,11 @@
+set(Scenes_SRC
+	${CMAKE_CURRENT_SOURCE_DIR}/CMakeLists.txt
+	${CMAKE_CURRENT_SOURCE_DIR}/CornellScene.cpp
+	${CMAKE_CURRENT_SOURCE_DIR}/CornellScene.h
+	${CMAKE_CURRENT_SOURCE_DIR}/DragonScene.cpp
+	${CMAKE_CURRENT_SOURCE_DIR}/DragonScene.h
+	${CMAKE_CURRENT_SOURCE_DIR}/GlassScene.cpp
+	${CMAKE_CURRENT_SOURCE_DIR}/GlassScene.h
+	${CMAKE_CURRENT_SOURCE_DIR}/MultipleObjectsScene.cpp
+	${CMAKE_CURRENT_SOURCE_DIR}/MultipleObjectsScene.h
+	PARENT_SCOPE)

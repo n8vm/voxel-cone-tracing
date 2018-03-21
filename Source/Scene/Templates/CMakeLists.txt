@@ -1,0 +1,4 @@
+set(Templates_SRC
+	${CMAKE_CURRENT_SOURCE_DIR}/CMakeLists.txt
+	${CMAKE_CURRENT_SOURCE_DIR}/FirstPersonScene.h
+	PARENT_SCOPE)

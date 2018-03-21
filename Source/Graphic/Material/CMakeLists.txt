@@ -1,0 +1,10 @@
+set(Material_SRC
+	${CMAKE_CURRENT_SOURCE_DIR}/CMakeLists.txt
+	${CMAKE_CURRENT_SOURCE_DIR}/Material.cpp
+	${CMAKE_CURRENT_SOURCE_DIR}/Material.h
+	${CMAKE_CURRENT_SOURCE_DIR}/MaterialSetting.h
+	${CMAKE_CURRENT_SOURCE_DIR}/MaterialStore.h
+	${CMAKE_CURRENT_SOURCE_DIR}/MaterialStore.cpp
+	${CMAKE_CURRENT_SOURCE_DIR}/Shader.cpp
+	${CMAKE_CURRENT_SOURCE_DIR}/Shader.h
+	PARENT_SCOPE)

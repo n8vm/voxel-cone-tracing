@@ -1,0 +1,4 @@
+set(Lighting_SRC
+	${CMAKE_CURRENT_SOURCE_DIR}/CMakeLists.txt
+	${CMAKE_CURRENT_SOURCE_DIR}/PointLight.h
+	PARENT_SCOPE)

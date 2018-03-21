@@ -7,8 +7,8 @@
 
 // External.
 #define GLEW_STATIC
-#include <glew.h>
-#include <glfw3.h>
+#include <GL/glew.h>
+#include <GLFW/glfw3.h>
 
 // Internal.
 #include "Scene\Scene.h"
@@ -23,7 +23,7 @@
 constexpr float __LOG_INTERVAL_TIME_GUARD = 1.0f;
 #endif
 
-using __DEFAULT_LEVEL = GlassScene; // The scene that will be loaded on startup.
+using __DEFAULT_LEVEL = CornellScene; // The scene that will be loaded on startup.
 // (see ScenePack.h for more scenes)
 
 Application & Application::getInstance() {
